@@ -1,6 +1,6 @@
 import express from 'express';
 import compression from 'compression';
-import logger from '../server/services/logger.service.js';
+import logger from './services/logger.service.js';
 import categoryRouter from './routes/category.js';
 
 const app = express();

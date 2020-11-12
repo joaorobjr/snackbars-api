@@ -2,13 +2,13 @@
   "name": "snackbars-api",
   "version": "1.0.0",
   "description": "Management System for Snack Bars",
-  "main": "./server.js",
+  "main": "./src/server.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./server.js"
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
